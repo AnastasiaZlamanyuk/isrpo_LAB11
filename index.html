@@ -11,20 +11,21 @@
 <body>
     <header class="header">
         <div class="header-left">
-            <button class="menu-btn">=</button>
+            <button class="menu-btn">☰</button>
             <div class="logo">
                 <span class="logo-icon">▶</span>
                 <span class="logo-text">YouTube</span>
             </div>
         </div>
         <div class="header-center">
-            <input type="text" placeholder="Поиск" class="search-input" />
+            <input type="text" placeholder="Введите запрос" class="search-input" />
             <button class="search-btn">🔎</button>
+            <button class="mic-btn">🎤</button>
         </div>
         <div class="header-right">
             <button>➕</button>
             <button>🔔</button>
-            <img src=" https://placehold.ru/32 " alt="Avatar" class="avatar" />
+            <img src="img/Screenshot_1.png" alt="Avatar" class="avatar" />
         </div>
     </header>
     <div class="content">
@@ -35,127 +36,192 @@
                     <span>Главная</span>
                 </a>
                 <a href="#" class="sidebar-link">
-                    <span class="icon">🔥</span>
-                    <span>В тренде</span>
+                    <span class="icon">⚡</span>
+                    <span>Shorts</span>
                 </a>
+            </nav>
+            <hr />
+            <nav>
+
                 <a href="#" class="sidebar-link">
-                    <span class="icon">✉️</span>
-                    <span>Подписки</span>
+                    <span class="icon">📺</span>
+                    <span>Подписки ></span>
                 </a>
             </nav>
             <hr />
             <nav>
                 <a href="#" class="sidebar-link">
-                    <span class="icon">📚</span>
-                    <span>Библиотека</span>
-                </a>
-                <a href="#" class="sidebar-link">
                     <span class="icon">🕐</span>
                     <span>История</span>
                 </a>
                 <a href="#" class="sidebar-link">
+                    <span class="icon">🎵</span>
+                    <span>Плейлисты</span>
+                </a>
+                <a href="#" class="sidebar-link">
+                    <span class="icon">🕣</span>
+                    <span>Смотреть позже</span>
+                </a>
+                <a href="#" class="sidebar-link">
                     <span class="icon">👍</span>
-                    <span>Понравилось</span>
+                    <span>Понравившиеся</span>
+                </a>
+                <a href="#" class="sidebar-link">
+                    <span class="icon">▶</span>
+                    <span>Ваши видео</span>
+                </a>
+                <a href="#" class="sidebar-link">
+                    <span class="icon">⬇</span>
+                    <span>Скачанные</span>
                 </a>
             </nav>
+            <hr />
+            <nav>
+                <a href="#" class="sidebar-link">
+                    <span class="icon">🎼</span>
+                    <span>Музыка</span>
+                </a>
+                <a href="#" class="sidebar-link">
+                    <span class="icon">🎬</span>
+                    <span>Фильмы</span>
+                </a>
+                <a href="#" class="sidebar-link">
+                    <span class="icon">📡</span>
+                    <span>Трансляции</span>
+                </a>
+            </nav>
+            <hr />
+            <nav>
+                <a href="#" class="sidebar-link">
+                    <span class="icon">⚙️</span>
+                    <span>Настройки</span>
+                </a>
+                <a href="#" class="sidebar-link">
+                    <span class="icon">🚨</span>
+                    <span>Жалобы</span>
+                </a>
+                <a href="#" class="sidebar-link">
+                    <span class="icon">ℹ️</span>
+                    <span>Справка</span>
+                </a>
+                <a href="#" class="sidebar-link">
+                    <span class="icon">💭</span>
+                    <span>Отправить отзыв</span>
+                </a>
+            </nav>
+
+
         </aside>
         <main class="main">
             <div class="chips">
                 <div class="chip active">Все</div>
-                <div class="chip">Музыка</div>
-                <div class="chip">Игры</div>
-                <div class="chip">Новости</div>
-                <div class="chip">Спорт</div>
-                <div class="chip">Образование</div>
-                <div class="chip">Технологии</div>
-            </div>
-            <div class="video-grid">
-                <article class="video-card">
-                    <div class="thumbnail">
-                        <img src="https://placehold.ru/320x180" alt="Video" />
-                        <span class="duration">22:15</span>
-                    </div>
-                    <div class="video-info">
-                        <img src="https://placehold.ru/36" alt="Channel" class="channel-avatar" />
-                        <div class="video-details">
-                            <h3 class="video-title">Обучающее видео по программированию на языке Python</h3>
-                            <p class="channel-name">Code School</p>
-                            <p class="video-meta">890 тыс. просмотров • 3 дня назад</p>
-                        </div>
-                    </div>
-                </article>
-                <article class="video-card">
-                    <div class="thumbnail">
-                        <img src="https://placehold.ru/320x180" alt="Video" />
-                        <span class="duration">15:30</span>
-                    </div>
-                    <div class="video-info">
-                        <img src="https://placehold.ru/36" alt="Channel" class="channel-avatar" />
-                        <div class="video-details">
-                            <h3 class="video-title">Как создать свой первый сайт за 15 минут</h3>
-                            <p class="channel-name">WebDev Pro</p>
-                            <p class="video-meta">450 тыс. просмотров • 1 неделю назад</p>
-                        </div>
-                    </div>
-                </article>
-                <article class="video-card">
-                    <div class="thumbnail">
-                        <img src="https://placehold.ru/320x180" alt="Video" />
-                        <span class="duration">8:45</span>
-                    </div>
-                    <div class="video-info">
-                        <img src="https://placehold.ru/36" alt="Channel" class="channel-avatar" />
-                        <div class="video-details">
-                            <h3 class="video-title">10 лайфхаков для продуктивной работы</h3>
-                            <p class="channel-name">Productivity Tips</p>
-                            <p class="video-meta">450 тыс. просмотров • 5 дней назад</p>
-                        </div>
-                    </div>
-                </article>
-                <article class="video-card">
-                    <div class="thumbnail">
-                        <img src="https://placehold.ru/320x180" alt="Video" />
-                        <span class="duration">9:50</span>
-                    </div>
-                    <div class="video-info">
-                        <img src="https://placehold.ru/36" alt="Channel" class="channel-avatar" />
-                        <div class="video-details">
-                            <h3 class="video-title">Как подготовиться к собеседованию за неделю</h3>
-                            <p class="channel-name">Career Coach</p>
-                            <p class="video-meta">650 тыс. просмотров • 2 дня назад</p>
-                        </div>
-                    </div>
-                </article>
-                <article class="video-card">
-                    <div class="thumbnail">
-                        <img src="https://placehold.ru/320x180" alt="Video" />
-                        <span class="duration">12:10</span>
-                    </div>
-                    <div class="video-info">
-                        <img src="https://placehold.ru/36" alt="Channel" class="channel-avatar" />
-                        <div class="video-details">
-                            <h3 class="video-title">Топ-5 фреймворков для фронтенда в 2026 году</h3>
-                            <p class="channel-name">Fronted Masters</p>
-                            <p class="video-meta">780 тыс. просмотров • 3 недели назад</p>
-                        </div>
-                    </div>
-                </article>
-                <article class="video-card">
-                    <div class="thumbnail">
-                        <img src="https://placehold.ru/320x180" alt="Video" />
-                        <span class="duration">6:30</span>
-                    </div>
-                    <div class="video-info">
-                        <img src="https://placehold.ru/36" alt="Channel" class="channel-avatar" />
-                        <div class="video-details">
-                            <h3 class="video-title">Как я заработал свой первый миллион</h3>
-                            <p class="channel-name">Business Insider</p>
-                            <p class="video-meta">3,4 млн просмотров • 1 месяц назад</p>
-                        </div>
-                    </div>
-                </article>
+                <div class="chip">Видеоигры</div>
+                <div class="chip">Подкасты</div>
+                <div class="chip">Сейчас в эфире</div>
+                <div class="chip">Симуляторы</div>
+                <div class="chip">Кулинария</div>
+                <div class="chip">Экшен и приключения</div>
+                <div class="chip">Анимация</div>
+                <div class="chip">Недавно опубликованные</div>
+                <div class="chip">Просмотрено</div>
+                <div class="chip">Новое для вас</div>
+
 
             </div>
+            <section class="video-section">
+                <h2 class="section-title">Рекомендуемое</h2>
+                <div class="video-grid">
+                    <article class="video-card">
+                        <div class="thumbnail">
+                            <img src="img/Screenshot_4.png" alt="Video" />
+                            <span class="duration">57:46</span>
+                        </div>
+                        <div class="video-info">
+                            <img src="img/Screenshot_7.png" alt="Channel" class="channel-avatar" />
+                            <div class="video-details">
+                                <h3 class="video-title">Жизнь и страдания госпожи Тимошенко</h3>
+                                <p class="channel-name">Александр Штефанов</p>
+                                <p class="video-meta">492 тыс. просмотров • 3 недели назад</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video-card">
+                        <div class="thumbnail">
+                            <img src="img/Screenshot_3.png" alt="Video" />
+                            <span class="duration">49:01</span>
+                        </div>
+                        <div class="video-info">
+                            <img src="img/Screenshot_8.png" alt="Channel" class="channel-avatar" />
+                            <div class="video-details">
+                                <h3 class="video-title">ДЖОРДЖО АРМАНИ - история "Крестного отца" итальянской моды</h3>
+                                <p class="channel-name">Модный подкаст</p>
+                                <p class="video-meta">294 тыс. просмотров • 7 месяцев назад</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video-card">
+                        <div class="thumbnail">
+                            <img src="img/Screenshot_5.png" alt="Video" />
+                            <span class="duration">20:40</span>
+                        </div>
+                        <div class="video-info">
+                            <img src="img/Screenshot_9.png" alt="Channel" class="channel-avatar" />
+                            <div class="video-details">
+                                <h3 class="video-title">Романовы за 20 минут</h3>
+                                <p class="channel-name">ΦΙΛΟΣΟΦΙΑ | Философия</p>
+                                <p class="video-meta">2,2 млн просмотров • 5 лет назад</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="video-section">
+                <h2 class="section-title">Подписки</h2>
+                <div class="video-grid">
+                    <article class="video-card">
+                        <div class="thumbnail">
+                            <img src="img/Screenshot_2.png" alt="Video" />
+                            <span class="duration">17:24</span>
+                        </div>
+                        <div class="video-info">
+                            <img src="img/Screenshot_10.png" alt="Channel" class="channel-avatar" />
+                            <div class="video-details">
+                                <h3 class="video-title">Кто придумал мороженое</h3>
+                                <p class="channel-name">ЧТИВО</p>
+                                <p class="video-meta">96 тыс. просмотров • 3 дня назад</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video-card">
+                        <div class="thumbnail">
+                            <img src="img/Screenshot_6.png" alt="Video" />
+                            <span class="duration">26:25</span>
+                        </div>
+                        <div class="video-info">
+                            <img src="img/Screenshot_11.png" alt="Channel" class="channel-avatar" />
+                            <div class="video-details">
+                                <h3 class="video-title">Я дал второй шанс вещам, которые меня разочаровали..</h3>
+                                <p class="channel-name">TheBrainMaps</p>
+                                <p class="video-meta">2,2 млн просмотров • 6 дней назад</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video-card">
+                        <div class="thumbnail">
+                            <img src="img/Screenshot_4.png" alt="Video" />
+                            <span class="duration">59:59</span>
+                        </div>
+                        <div class="video-info">
+                            <img src="img/Screenshot_7.png" alt="Channel" class="channel-avatar" />
+                            <div class="video-details">
+                                <h3 class="video-title">Что из "файлов Эпштейна" оказалось правдой, а что - нет?</h3>
+                                <p class="channel-name">Александр Штефанов</p>
+                                <p class="video-meta">688 тыс. просмотров • 10 дней назад</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
         </main>
     </div>
 </body>

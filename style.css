@@ -2,15 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Arial, sans-serif;
 }
 
 body {
-    font-family: "Roboto", Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-color: #dbe3e6;
 }
 
 .header {
-    background-color: white;
+    background-color: rgb(97, 106, 116);
     padding: 0 16px;
     height: 56px;
     display: flex;
@@ -37,7 +37,7 @@ body {
 .search-input {
     flex: 1;
     height: 40px;
-    border: 1px solid #ccc;
+    border: 1px solid #994141;
     border-right: none;
     border-radius: 40px 0 0 40px;
     padding: 0 16px;
@@ -60,7 +60,7 @@ body {
 }
 
 .search-btn:hover {
-    background-color: #f0f0f0;
+    background-color: rgb(40, 54, 70);
 }
 
 button {
@@ -112,7 +112,7 @@ button:hover {
 
 .sidebar {
     width: 240px;
-    background-color: white;
+    background-color: rgb(97, 106, 116);
     padding: 12px 0;
     height: calc(100vh - 56px);
     overflow-y: auto;
@@ -134,11 +134,11 @@ button:hover {
 }
 
 .sidebar-link:hover {
-    background-color: #f2f2f2;
+    background-color: rgb(40, 54, 70);
 }
 
 .sidebar-link.active {
-    background-color: #e5e5e5;
+    background-color: rgb(40, 54, 70);
     font-weight: 500;
 }
 
